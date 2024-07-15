@@ -1,0 +1,58 @@
+table,
+th,
+td{
+    border: 1px solid black;
+}
+
+h1{
+    color: brown;
+}
+
+.carousel-item img {
+    width: 25%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.carousel-item:nth-child(3) img {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro */
+    color: white; 
+}
+                
+.dropdown-menu {
+    min-width: 240px; /* Ancho mínimo para el menú desplegable */
+}
+
+.img-thumbnail {
+    max-width: 100%; /* Ajustar tamaño máximo de las miniaturas de imagen */
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-toggle {
+    background-color: #333; /* Fondo negro o gris oscuro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.btn-toggle.active {
+    background-color: #fff; /* Fondo blanco cuando está activo */
+    color: #333; /* Texto negro o gris oscuro cuando está activo */
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
